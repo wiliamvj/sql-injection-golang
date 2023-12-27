@@ -1,0 +1,22 @@
+## FindUser with SQL Injection
+GET http://localhost:8080/users?id='1'OR'1'='1' HTTP/1.1
+content-type: application/json
+
+###
+
+## FindUser correct
+GET http://localhost:8080/users/correct?id=2 HTTP/1.1
+content-type: application/json
+
+###
+
+## DeleteUser with SQL Injection
+DELETE http://localhost:8080/users?id='1'OR'1'='1' HTTP/1.1
+content-type: application/json
+
+###
+
+## DeleteUser correct
+DELETE http://localhost:8080/users/correct?id=5 HTTP/1.1
+content-type: application/json
+
