@@ -1,6 +1,6 @@
 ## Project example sql injection golang
 
-view post  [here](https://wiliamvj.com/posts/evitando-sql-injection-com-golang)
+view post  [here](https://wiliamvj.com/posts/sql-injection-golang/)
 
 run project:
 ```bash
